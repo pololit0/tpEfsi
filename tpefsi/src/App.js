@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './componentes/Header';
 import Home from './componentes/Home'
-
+import Footer from './componentes/Footer';
 function App() {
   return (
     <Router>
@@ -12,6 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* Agrega más rutas según tus necesidades */}
         </Routes>
+      
       </div>
     </Router>
   );
